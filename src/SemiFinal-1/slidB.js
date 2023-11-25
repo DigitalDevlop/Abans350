@@ -27,7 +27,11 @@ function SlideB() {
 
   return (
     <div className='FirstSemiFinal'>
+      <div className='img'>
       <img className='img-zoom' src={Img} alt="Zooming Image" />
+
+
+      </div>
 <div className='clockMaliban'>
 
   
