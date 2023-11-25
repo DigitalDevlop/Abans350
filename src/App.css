@@ -15,10 +15,7 @@
   padding-left: 30px;
 }
 
-.lastImg{
-  height: 250px;
-  width: 300px;
-}
+
 
 /* Define zoom animation */
 @keyframes zoom {
@@ -32,8 +29,13 @@
 
 /* Apply the animation to the img tag */
 .img-zoom {
+  position: relative;
   animation: zoom 5s infinite;
-  height: 70px;
-  padding-top: 65px;
-  padding-left: 95px;
+  height: 40px;
+  padding-top: 88px;
+  left: 50%; /* Position from the center */
+  transform: translateX(-50%); 
+}
+.img{
+  padding-right: 140px;
 }
